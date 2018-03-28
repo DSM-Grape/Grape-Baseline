@@ -1,4 +1,37 @@
 # Grape-Baseline
+## 주 기능
+- 플랫폼에 프로젝트를 등록하고, 유저 초대
+- 프로젝트의 사용자는 admin, maintainer, member로 나뉨
+- 플랫폼 자체에서 Endpoint 기준 API Spec CRUD 가능
+- 비슷한 API Spec끼리 그룹핑 가능
+- 따라서 그룹 - URL Rule - Method 순서로 깊어지는 형태
+- 라이브러리 지원, Swagger처럼 standalone으로 API Spec 제공 가능
+- JSON 전체를 export해서 플랫폼으로 옮기기 가능
+- API Spec을 기반으로 code generation 가능
+- Swagger에서 갈아타기 가능
+- Slack 지원
+
+## 기술스택
+### Web
+#### Software Stack
+- HTML/CSS
+- React
+
+### Backend
+#### Software Stack
+- Go
+- Echo
+
+#### Database
+- PostgreSQL
+- Redis
+
+#### Host
+- Heroku
+
+#### Monitoring
+- Grafana + Prometheus
+
 ## JSON Schema
 ```
 {
@@ -16,6 +49,7 @@
         "계정" : "계정 관련 API들"
     },
 
+    /* '#'으로  */
     "advices": {
         "401": {
             "description": "JWT Access token이 없음"
