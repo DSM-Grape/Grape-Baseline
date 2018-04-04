@@ -49,8 +49,7 @@
         "계정" : "계정 관련 API들"
     },
 
-    /* '#'으로  */
-    "advices": {
+    "define": {
         "401": {
             "description": "JWT Access token이 없음"
         },
@@ -62,12 +61,9 @@
         },
         "406": {
             "description": "처리할 수 없는 Content-Type"
-        }
-    },
-
-    "properties": {
+        },
         "jwtheader": "hjaahsbdjehab.adbhjebadhbaedbad.beahdbaedhbaedeadbkh"
-    },
+    }
 
     "schemes": {
         "PostSchema": {
@@ -181,7 +177,9 @@
                         "201": {
                             "description": "게시글 작성 성공"
                         },
-                        "_advices": ["401", "403", "406"]
+                        "401": "#401",
+                        "403": "#403",
+                        "406": "#406"
                     }
                 }
             }
