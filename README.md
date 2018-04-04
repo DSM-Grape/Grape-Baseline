@@ -19,8 +19,8 @@
 
 ### Backend
 #### Software Stack
-- Go
-- Echo
+- Node.js
+- Express
 
 #### Database
 - PostgreSQL
@@ -29,8 +29,14 @@
 #### Host
 - Heroku
 
+#### Log Management
+- 
+
 #### Monitoring
-- Grafana + Prometheus
+##### Application Performance
+- 
+##### Infrastructure
+- 
 
 ## JSON Schema
 ```
